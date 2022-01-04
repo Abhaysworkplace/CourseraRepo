@@ -1,0 +1,37 @@
+@media (min-width:992px){
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    float: left;
+  }
+h1{
+  padding-left: 650px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.chicken,.beef,.sushi{
+  background-color: rgb(156, 156, 156);
+  padding-bottom: 0px;
+  border: 2.5px black solid;
+  width:400px;
+  height: 140px;
+  margin: 40px;
+}
+#one,#two,#three{
+float: right;
+text-align: center;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 1.5px black solid;
+background-color: rgb(218, 17, 17);
+width: 120px;
+}
+#two{
+background-color: pink;
+}
+#three{
+  background-color: rgb(224, 224, 14);
+}
+}
